@@ -41,6 +41,17 @@
 
 ---
 
+## Prerequisites: Powered by OpenSwarm
+
+HydraArm is built on top of the [**OpenSwarm**](https://github.com/raihhann/OpenSwarm) framework. Before running HydraArm, you must install the OpenSwarm packages on your Master PC and Slave controllers:
+
+* **Main Framework Repo:** [github.com/raihhann/OpenSwarm](https://github.com/raihhann/OpenSwarm)
+* **Master PC (`openswarm-master`):** Install via PyPI (`pip install openswarm-master aiohttp` or `pip install -r requirements.txt`)
+* **Microcontroller Slaves (`SwarmNode`):** Install the [`SwarmNode`](https://github.com/raihhann/OpenSwarm/tree/SwarmNode) library in Arduino IDE / PlatformIO (`raihann/SwarmNode`) for the ESP32 and RP2040
+* **Raspberry Pi Slave (`openswarm-slave`):** Install via PyPI (`pip install openswarm-slave`)
+
+---
+
 ## System Architecture
 
 ```mermaid
