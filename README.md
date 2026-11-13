@@ -20,7 +20,6 @@
     <img src="assets/demo_hydra_arm.gif" alt="OpenSwarm HydraArm Live Hardware Demo" width="420" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <img src="assets/hydra_arm_setup.jpg" alt="HydraArm 3-Controller Hardware Bench & 3D Digital Twin Studio" width="420" />
   <br />
   <em>Left: Live 3-controller pick-and-place execution (<a href="Demo.mp4">click to open full <code>Demo.mp4</code></a>). Right: Physical arm wired to ESP32, RP2040, and Raspberry Pi alongside the live 3D Digital Twin Studio.</em>
 </p>
